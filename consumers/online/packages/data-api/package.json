@@ -5,7 +5,7 @@
   "license": "MIT-0",
   "dependencies": {
     "@aws-prototype/model-consumer-online-data-type": "1.0.0",
-    "aws-sdk": "^2"
+    "aws-sdk": "^2.1601.0"
   },
   "scripts": {
     "build": "tsc",
