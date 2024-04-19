@@ -7,10 +7,10 @@ bash ./scripts/test.sh
 pushd ./infrastructure
 
 pushd ./functions/dataSourceMonitor
-yarn install --frozen-lockfile
+yarn install
 popd
 
-yarn install --frozen-lockfile
+yarn install
 yarn lint
 yarn build
 yarn cdk synth
@@ -19,10 +19,10 @@ popd
 pushd ./model_deploy
 
 pushd ./customResources/pipelineModel
-yarn install --frozen-lockfile
+yarn install
 popd
 
-yarn install --frozen-lockfile
+yarn install
 yarn lint
 yarn build
 yarn cdk synth
