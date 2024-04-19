@@ -2,6 +2,6 @@
   "name": "@aws-prototype/model-deploy-custom-resource-pipeline-model",
   "version": "1.0.0",
   "dependencies": {
-    "aws-sdk": "^2"
+    "aws-sdk": "^2.1601.0"
   }
 }
